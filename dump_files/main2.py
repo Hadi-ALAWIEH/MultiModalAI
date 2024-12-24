@@ -14,7 +14,7 @@ import speech_recognition as sr  # Import speech recognition library
 # cap.set(4, 240)
 
 # Load YOLO model trained on clothing dataset
-model : YOLO  = YOLO("yolo-Weights/yolov8n.pt")  # Use your custom-trained YOLO model here
+model : YOLO  = YOLO("../yolo-Weights/yolov8n.pt")  # Use your custom-trained YOLO model here
 
 
 '''

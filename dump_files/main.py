@@ -13,7 +13,7 @@ cap.set(3, 640)
 cap.set(4, 480)
 
 # Load YOLO model
-model = YOLO("yolo-Weights/yolov8s.pt")
+model = YOLO("../yolo-Weights/yolov8s.pt")
 
 # Object classes
 classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
