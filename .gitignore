@@ -20,3 +20,5 @@ yolo-Weights/
 
 # Other build or temporary files can be added as needed
 runs/
+
+vosk/
