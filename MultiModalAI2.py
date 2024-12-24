@@ -11,7 +11,7 @@ import sys
 engine = pyttsx3.init()
 
 # Load YOLOv8 Model
-model = YOLO("./yolo-Weights/yolov8n.pt.pt")
+model = YOLO("./yolo-Weights/yolov8n.pt")
 print(model.names)
 
 # Load Vosk Model for Offline Speech Recognition
